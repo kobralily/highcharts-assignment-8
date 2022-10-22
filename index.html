@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> Compensation and Output of US Industries </title>
+	<link href="styles/main.css" rel="stylesheet">
+
+  <!-- Font elements: -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Bentham&family=Fjalla+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+	<header>
+
+		<h1>Compensation and Output of US Industries</h1>
+
+	</header>
+
+<article>
+  <p>by Olivia Giraldo</p>
+
+  <p id="desc">This page explores the relationship between total compensation of each industry and gross output. Total compensation, measured in wages and salaries paid per year to all workers, numbers in the trillions for some industries. The first chart explores how those compensation numbers have changed over time to give some context on the steadfast nature of each industry in the economy. The second chart shows the relationship between high compensation numbers and high output. The outliers are particularly interesting, with retail being the most efficient industry in terms of payment of workers per dollar of output. Following that, the government is the least efficient industry. These observations can help inform investments in certain industries if the labor efficiency is a concern.</p>
+
+  <section>
+    <div id="container"></div>
+
+    <p>Source: US Department of Commerce, <a href="https://apps.bea.gov/iTable/?reqid=19&step=2&isuri=1&categories=survey#eyJhcHBpZCI6MTksInN0ZXBzIjpbMSwyLDNdLCJkYXRhIjpbWyJDYXRlZ29yaWVzIiwiU3VydmV5Il0sWyJOSVBBX1RhYmxlX0xpc3QiLCIxODkiXV19">Table 6.3D. Wages and Salaries by Industry</a></p>
+
+    <p>This chart displays the share of total salaries and wages paid out by each US industry. Shares held by each industry seem to hold fairly constant, while the total amount of salaries grew. This shows the static nature of each industry's share of the workforce.</p>
+
+  </section>
+
+  <section>
+    <div id="container2"></div>
+
+    <p>Source: US Department of Commerce, <a href="https://apps.bea.gov/iTable/?reqid=19&step=2&isuri=1&categories=survey#eyJhcHBpZCI6MTksInN0ZXBzIjpbMSwyLDNdLCJkYXRhIjpbWyJDYXRlZ29yaWVzIiwiU3VydmV5Il0sWyJOSVBBX1RhYmxlX0xpc3QiLCIxODkiXV19">Table 6.3D. Wages and Salaries by Industry </a><a href="https://apps.bea.gov/iTable/?reqid=150&step=2&isuri=1&categories=gdpxind#eyJhcHBpZCI6MTUwLCJzdGVwcyI6WzEsMiwzXSwiZGF0YSI6W1siQ2F0ZWdvcmllcyIsIkdkcHhJbmQiXSxbIlRhYmxlX0xpc3QiLCIxNSJdXX0=">and Table 6.3D. Wages and Salaries by Industry </a></p>
+
+    <p>This chart displays the total salaries and wages paid out by gross output per industry. Outliers aside, there is an upward trend of total wages paid versus the gross output of that industry.</p>
+  </section>
+
+</article>
+
+<footer>
+	<p>This page is an assignment for the University of Florida course <b>Introduction to Web Apps</b>.</p>
+</footer>
+
+
+
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/modules/streamgraph.js"></script>
+<script src="https://code.highcharts.com/modules/series-label.js"></script>
+<script src="https://code.highcharts.com/modules/annotations.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+<script src="https://code.highcharts.com/modules/export-data.js"></script>
+<script src="https://code.highcharts.com/modules/accessibility.js"></script>
+<script src="scripts/main.js"></script>
+</body>
+</html>
